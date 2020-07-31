@@ -1,7 +1,7 @@
 import React from 'react';
 
 function GuestReviews({ overallStar }) {
-  if (overallStar < 0.5) {
+  if (overallStar < 0.5 || overallStar === null) {
     return (
       <div className="guestReviews">
         <div className="aggRating">
