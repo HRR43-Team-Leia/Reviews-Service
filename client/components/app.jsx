@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ReviewList from './ReviewList.jsx';
 import getReviews from '../apiCalls.js';
-import PageSelector from './pageSelector.jsx';
-import GuestReviews from './guestReviews.jsx';
+import ReviewList from './ReviewList.jsx';
+import PageSelector from './PageSelector.jsx';
+import GuestReviews from './GuestReviews.jsx';
 
 class App extends React.Component {
   constructor(props) {
